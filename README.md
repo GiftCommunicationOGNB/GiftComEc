@@ -1,0 +1,2 @@
+# GiftComEc
+gift-communicationのECサイトのソース管理用リポジトリ
