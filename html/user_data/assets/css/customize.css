@@ -550,20 +550,26 @@ body {
         top: 0;
         /*height:56vw;*/
     }
+    .main_visual > .slick-list > .slick-track {
+        height: 600px;
+    }
     .main_visual .main_visual_01 {
         background: url(/html/user_data/assets/img/MV/PC_MV_b02_20230719.jpg) no-repeat center;
         background-size: cover;
         height: 500px;
+        top: 100px;
     }
     .main_visual .main_visual_02 {
         background: url(/html/user_data/assets/img/MV/MV_01_20230719.jpg) no-repeat center;
         background-size: cover;
         height: 500px;
+        top: 100px;
     }
     .main_visual .main_visual_03 {
         background: url(/html/user_data/assets/img/MV/MV_PC_01_20230702.jpg) no-repeat center;
         background-size: cover; 
         height: 500px;
+        top: 100px;
     }
 }
 
