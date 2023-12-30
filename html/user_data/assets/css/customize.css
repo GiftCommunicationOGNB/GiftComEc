@@ -566,7 +566,7 @@ body {
         top: 100px;
     }
     .main_visual .main_visual_03 {
-        background: url(/html/user_data/assets/img/MV/MV_PC_01_20230702.jpg) no-repeat center;
+        background: url(/html/user_data/assets/img/MV/MV_PC_01_20231019.jpg) no-repeat center;
         background-size: cover; 
         height: 500px;
         top: 100px;
@@ -2343,7 +2343,7 @@ body {
         border-top: none;
         border-bottom: none;
         margin: 10px 16px 0px;
-        padding: 20px;
+        padding: 8px;
         font-size: 24px;
         font-weight: bold;
         text-align: center;
@@ -2601,7 +2601,7 @@ body {
 /* 商品一覧画面(PC) */
 @media only screen and (min-width: 1000px) {
     .ec-shelfGrid .ec-shelfGrid__item-image img {
-        border-radius: 0;
+        border-radius: 0;;
     }
     .ec-shelfGrid .ec-shelfGrid__item a {
         position: relative;
@@ -2935,17 +2935,20 @@ body {
     .ec-productRelatedRole .ec-productRelatedRole__plugin .ec-shelfGrid__item {
         padding: 0;
     }
-    .ec-productRelatedRole .ec-productRelatedRole__plugin .ec-shelfGrid .slick-slide img {
+    .ec-productRelatedRole .ec-productRelatedRole__plugin .ec-shelfGrid .slick-slide img,
+    .ec-shelfGrid .ec-shelfGrid__item-image {
         width: 140px;
         height: 140px;
         border-radius: 0;
     }
-    .ec-productRelatedRole .ec-productRelatedRole__plugin .ec-shelfGrid__item a {
+    .ec-productRelatedRole .ec-productRelatedRole__plugin .ec-shelfGrid__item a,
+    .ec-shelfGrid .ec-shelfGrid__item-image {
         position: relative;
         height: 246px;
         width: 140px;
     }
-    .ec-productRelatedRole .ec-productRelatedRole__plugin .ec-shelfGrid__item a p:nth-child(2) {
+    .ec-productRelatedRole .ec-productRelatedRole__plugin .ec-shelfGrid__item a p:nth-child(2),
+    .ec-shelfGrid .ec-shelfGrid__item-image a p {
         display: -webkit-box;
         -webkit-box-orient: vertical;
         -webkit-line-clamp: 3;
@@ -2953,7 +2956,8 @@ body {
         text-align: left;
         white-space: normal;
     }
-    .ec-productRelatedRole .ec-productRelatedRole__plugin .ec-shelfGrid__item a p:nth-child(3) {
+    .ec-productRelatedRole .ec-productRelatedRole__plugin .ec-shelfGrid__item a p:nth-child(3),
+    .ec-shelfGrid .ec-shelfGrid__item .price02-default {
         position: absolute;
         bottom: 0;
         width: 100%;
@@ -3317,6 +3321,7 @@ body {
         color: #FFFFFF;
         border: none;
         border-radius: 0;
+        margin-bottom: 5.33vw;
     }
 }
 @media only screen and (min-width: 1000px) {
@@ -3353,7 +3358,7 @@ body {
         width: 295px;
         height: 50px;
         border-radius:0;
-        margin: 0 0 0 0;
+        margin: 0 20px 0 0;
         padding: 0;
         font-size: 16px;
         font-weight: 400;
@@ -8609,7 +8614,7 @@ fieldset[disabled] .ec-blockBtn--action.focus {
         font-weight: 400;
     }
     p {
-        margin-left: 20px;
+        margin-left: -8px;
     }
 }
 @media only screen and (min-width: 1000px) {
@@ -9722,3 +9727,4 @@ fieldset[disabled] .ec-blockBtn--action.focus {
         margin: 1.5vw 0 0 1vw;
     }
 }
+/*追記してみたけど、いかがでしょうか？*/
