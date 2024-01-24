@@ -1484,7 +1484,7 @@ body {
     /* 商品一覧 */
     .ec-shelfGrid .ec-shelfGrid__item a {
         position: relative;
-        height: 70vw;
+        height: 100%;
     }
     .ec-shelfGrid .ec-shelfGrid__item-image img {
         border-radius: 0;
@@ -2601,11 +2601,11 @@ body {
 /* 商品一覧画面(PC) */
 @media only screen and (min-width: 1000px) {
     .ec-shelfGrid .ec-shelfGrid__item-image img {
-        border-radius: 0;;
+        border-radius: 0;
     }
     .ec-shelfGrid .ec-shelfGrid__item a {
         position: relative;
-        height: 330px;
+        height: 100%;
         margin-bottom: 10px;
     }
     .ec-shelfGrid .ec-shelfGrid__item .price02-default {
@@ -9727,4 +9727,3 @@ fieldset[disabled] .ec-blockBtn--action.focus {
         margin: 1.5vw 0 0 1vw;
     }
 }
-/*追記してみたけど、いかがでしょうか？*/
