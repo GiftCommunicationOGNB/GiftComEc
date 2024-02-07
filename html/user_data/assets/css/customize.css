@@ -115,6 +115,10 @@ body {
         width: auto;
         height: 18px;
     }
+
+    div#blog_SP{
+        width: 40px;
+    }
     /* ↑↑↑ここまで↑↑↑ */
 
     .ec-headerNav .ec-headerNav__item{
