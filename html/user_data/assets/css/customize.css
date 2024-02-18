@@ -115,10 +115,6 @@ body {
         width: auto;
         height: 18px;
     }
-
-    div#blog_SP{
-        width: 40px;
-    }
     /* ↑↑↑ここまで↑↑↑ */
 
     .ec-headerNav .ec-headerNav__item{
@@ -1977,6 +1973,11 @@ body {
     width: 3.6vw;
     height: 4.8vw;
     margin: 1.6vw 0 1.6vw 1.6vw;
+}
+
+/* SP版_ブログアイコンの個別修正*/
+div#blog_SP{
+    width: 40px;
 }
 
 /* drawerの表示修正 */
