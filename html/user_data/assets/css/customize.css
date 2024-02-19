@@ -105,9 +105,20 @@ body {
     .ec-headerNaviRole__right {
         height: 55px;
     }
+
+    /* ↓↓↓ブログアイコンの個別修正↓↓↓ */
+    div#blog_id {
+        margin-right: 6px;
+    }
+
+    img.blog {
+        width: auto;
+        height: 18px;
+    }
+    /* ↑↑↑ここまで↑↑↑ */
+
     .ec-headerNav .ec-headerNav__item{
         margin-left: 10px;
-        margin-right: 1px;
     }
     .ec-headerNaviRole .ec-headerNaviRole__right {
         margin-left:60px;
@@ -1964,6 +1975,11 @@ body {
     margin: 1.6vw 0 1.6vw 1.6vw;
 }
 
+/* SP版_ブログアイコンの個別修正*/
+div#blog_SP{
+    width: 40px;
+}
+
 /* drawerの表示修正 */
 @media only screen and (max-width: 520px) {
     .ec-drawerRole {
@@ -3791,7 +3807,7 @@ body {
         position: absolute;
     }
     .ec-headerNaviRole .ec-headerNaviRole__nav {
-        left: 40px;
+        left: 4px;
         /* margin-left: 100px; */
         position: absolute;
         width: 80px;

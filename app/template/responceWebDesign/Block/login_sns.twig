@@ -11,6 +11,12 @@ file that was distributed with this source code.
 
 <div class="ec-headerNav">
     {% if is_granted('ROLE_USER') %}
+        <div class="ec-headerNav__item" id="blog_id">
+            <a href="{{'https://gift-communication.shop/blog/'}}">
+                <img src="/html/user_data/assets/img/sns/SP_blog_2.svg" class="blog">
+                <span class="ec-headerNav__itemLink">{{ 'ブログ'|trans }}</span>
+            </a>
+        </div>
         <div class="ec-headerNav__item">
             <a href="{{ 'https://instagram.com/giftcommunication?igshid=YmMyMTA2M2Y='}}">
                 <img src="/html/user_data/assets/img/sns/SP_Instagram_2.svg">
@@ -19,7 +25,7 @@ file that was distributed with this source code.
         </div>
         <div class="ec-headerNav__item">
             <a href="{{ 'https://mobile.twitter.com/giftcommunicat1'}}">
-                <img src="/html/user_data/assets/img/sns/SP_Twitter_2.svg">
+                <img src="/html/user_data/assets/img/sns/SP_x.svg">
                 <span class="ec-headerNav__itemLink">{{ 'ツイッター'|trans }}</span>
             </a>
         </div>
