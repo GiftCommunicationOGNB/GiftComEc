@@ -108,7 +108,7 @@ body {
 
     /* ↓↓↓ブログアイコンの個別修正↓↓↓ */
     div#blog_id {
-        margin-right: 6px;
+        margin-right: 17px;
     }
 
     img.blog {
@@ -118,7 +118,7 @@ body {
     /* ↑↑↑ここまで↑↑↑ */
 
     .ec-headerNav .ec-headerNav__item{
-        margin-left: 10px;
+        margin-left: 4px; /*10→4に変更（アイコン間の幅調整）*/
     }
     .ec-headerNaviRole .ec-headerNaviRole__right {
         margin-left:60px;
@@ -3807,10 +3807,10 @@ div#blog_SP{
         position: absolute;
     }
     .ec-headerNaviRole .ec-headerNaviRole__nav {
-        left: 4px;
+        left: -10px;
         /* margin-left: 100px; */
         position: absolute;
-        width: 80px;
+        /*width: 80px;*/
     }
     .ec-headerNavSP .fas {
         background: #707070;
