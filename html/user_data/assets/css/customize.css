@@ -108,12 +108,7 @@ body {
 
     /* ↓↓↓ブログアイコンの個別修正↓↓↓ */
     div#blog_id {
-        margin-right: 17px;
-    }
-
-    img.blog {
-        width: auto;
-        height: 18px;
+        margin-right: 6px;
     }
     /* ↑↑↑ここまで↑↑↑ */
 
