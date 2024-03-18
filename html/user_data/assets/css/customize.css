@@ -107,18 +107,14 @@ body {
     }
 
     /* ↓↓↓ブログアイコンの個別修正↓↓↓ */
+    /*2024/3/16 修正(4→10)*/
     div#blog_id {
-        margin-right: 6px;
-    }
-
-    img.blog {
-        width: auto;
-        height: 18px;
+        margin-right: 20px;
     }
     /* ↑↑↑ここまで↑↑↑ */
 
     .ec-headerNav .ec-headerNav__item{
-        margin-left: 10px;
+        margin-left: 0px; /*2024/3/16 4→0に変更（アイコン間の幅調整）*/
     }
     .ec-headerNaviRole .ec-headerNaviRole__right {
         margin-left:60px;
@@ -577,7 +573,7 @@ body {
         top: 100px;
     }
     .main_visual .main_visual_03 {
-        background: url(/html/user_data/assets/img/MV/MV_PC_01_20230702.jpg) no-repeat center;
+        background: url(/html/user_data/assets/img/MV/MV_PC_01_20231019.jpg) no-repeat center;
         background-size: cover; 
         height: 500px;
         top: 100px;
@@ -1495,7 +1491,7 @@ body {
     /* 商品一覧 */
     .ec-shelfGrid .ec-shelfGrid__item a {
         position: relative;
-        height: 70vw;
+        height: 100%;
     }
     .ec-shelfGrid .ec-shelfGrid__item-image img {
         border-radius: 0;
@@ -2621,7 +2617,7 @@ div#blog_SP{
     }
     .ec-shelfGrid .ec-shelfGrid__item a {
         position: relative;
-        height: 330px;
+        height: 100%;
         margin-bottom: 10px;
     }
     .ec-shelfGrid .ec-shelfGrid__item .price02-default {
@@ -2951,17 +2947,20 @@ div#blog_SP{
     .ec-productRelatedRole .ec-productRelatedRole__plugin .ec-shelfGrid__item {
         padding: 0;
     }
-    .ec-productRelatedRole .ec-productRelatedRole__plugin .ec-shelfGrid .slick-slide img {
+    .ec-productRelatedRole .ec-productRelatedRole__plugin .ec-shelfGrid .slick-slide img,
+    .ec-shelfGrid .ec-shelfGrid__item-image {
         width: 140px;
         height: 140px;
         border-radius: 0;
     }
-    .ec-productRelatedRole .ec-productRelatedRole__plugin .ec-shelfGrid__item a {
+    .ec-productRelatedRole .ec-productRelatedRole__plugin .ec-shelfGrid__item a,
+    .ec-shelfGrid .ec-shelfGrid__item-image {
         position: relative;
         height: 246px;
         width: 140px;
     }
-    .ec-productRelatedRole .ec-productRelatedRole__plugin .ec-shelfGrid__item a p:nth-child(2) {
+    .ec-productRelatedRole .ec-productRelatedRole__plugin .ec-shelfGrid__item a p:nth-child(2),
+    .ec-shelfGrid .ec-shelfGrid__item-image a p {
         display: -webkit-box;
         -webkit-box-orient: vertical;
         -webkit-line-clamp: 3;
@@ -2969,7 +2968,8 @@ div#blog_SP{
         text-align: left;
         white-space: normal;
     }
-    .ec-productRelatedRole .ec-productRelatedRole__plugin .ec-shelfGrid__item a p:nth-child(3) {
+    .ec-productRelatedRole .ec-productRelatedRole__plugin .ec-shelfGrid__item a p:nth-child(3),
+    .ec-shelfGrid .ec-shelfGrid__item .price02-default {
         position: absolute;
         bottom: 0;
         width: 100%;
@@ -3806,11 +3806,13 @@ div#blog_SP{
         right: 30px;
         position: absolute;
     }
+
+    /*変更（left: 0px）2024/3/18　こうせい*/
     .ec-headerNaviRole .ec-headerNaviRole__nav {
-        left: 4px;
+        left: 0px;
         /* margin-left: 100px; */
         position: absolute;
-        width: 80px;
+        /*width: 80px;*/
     }
     .ec-headerNavSP .fas {
         background: #707070;
@@ -8626,7 +8628,7 @@ fieldset[disabled] .ec-blockBtn--action.focus {
         font-weight: 400;
     }
     p {
-        margin-left: 20px;
+        margin-left: -8px;
     }
 }
 @media only screen and (min-width: 1000px) {
