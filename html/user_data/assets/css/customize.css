@@ -1491,7 +1491,7 @@ body {
     /* 商品一覧 */
     .ec-shelfGrid .ec-shelfGrid__item a {
         position: relative;
-        height: 100%;
+        height: 70vw;
     }
     .ec-shelfGrid .ec-shelfGrid__item-image img {
         border-radius: 0;
@@ -2617,7 +2617,7 @@ div#blog_SP{
     }
     .ec-shelfGrid .ec-shelfGrid__item a {
         position: relative;
-        height: 100%;
+        height: 330px;
         margin-bottom: 10px;
     }
     .ec-shelfGrid .ec-shelfGrid__item .price02-default {
@@ -2947,20 +2947,17 @@ div#blog_SP{
     .ec-productRelatedRole .ec-productRelatedRole__plugin .ec-shelfGrid__item {
         padding: 0;
     }
-    .ec-productRelatedRole .ec-productRelatedRole__plugin .ec-shelfGrid .slick-slide img,
-    .ec-shelfGrid .ec-shelfGrid__item-image {
+    .ec-productRelatedRole .ec-productRelatedRole__plugin .ec-shelfGrid .slick-slide img {
         width: 140px;
         height: 140px;
         border-radius: 0;
     }
-    .ec-productRelatedRole .ec-productRelatedRole__plugin .ec-shelfGrid__item a,
-    .ec-shelfGrid .ec-shelfGrid__item-image {
+    .ec-productRelatedRole .ec-productRelatedRole__plugin .ec-shelfGrid__item a {
         position: relative;
         height: 246px;
         width: 140px;
     }
-    .ec-productRelatedRole .ec-productRelatedRole__plugin .ec-shelfGrid__item a p:nth-child(2),
-    .ec-shelfGrid .ec-shelfGrid__item-image a p {
+    .ec-productRelatedRole .ec-productRelatedRole__plugin .ec-shelfGrid__item a p:nth-child(2) {
         display: -webkit-box;
         -webkit-box-orient: vertical;
         -webkit-line-clamp: 3;
@@ -2968,8 +2965,7 @@ div#blog_SP{
         text-align: left;
         white-space: normal;
     }
-    .ec-productRelatedRole .ec-productRelatedRole__plugin .ec-shelfGrid__item a p:nth-child(3),
-    .ec-shelfGrid .ec-shelfGrid__item .price02-default {
+    .ec-productRelatedRole .ec-productRelatedRole__plugin .ec-shelfGrid__item a p:nth-child(3) {
         position: absolute;
         bottom: 0;
         width: 100%;
