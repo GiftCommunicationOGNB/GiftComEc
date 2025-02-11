@@ -1621,7 +1621,7 @@ body {
     }
     .ec-shelfGrid .ec-shelfGrid__item a {
         position: relative;
-        height: 70vw;
+        height: 100%;
     }
     .ec-shelfGrid .ec-shelfGrid__item-image img {
         border-radius: 0;
